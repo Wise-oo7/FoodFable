@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalMeal%</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            margin: 20px 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            width: 280px;
+            transition: transform 0.2s;
+            box-sizing: border-box;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            color: #4CAF50;
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+
+        .card ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .card ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .card ul li:last-child {
+            border-bottom: none;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nutritional information</h1>
+    <div class="container">
+        <div class="card">
+            <h2>Spinach</h2>
+            <ul>
+                <li>Choline: 4% DV</li>
+                <li>Folic Acid (B9): 37% DV</li>
+                <li>Iron: 15% DV</li>
+                <li>Magnesium: 21% DV</li>
+                <li>Manganese: 39% DV</li>
+                <li>Phosphorus: 9% DV</li>
+                <li>Vitamin A: 52% DV</li>
+                <li>Vitamin B2: 15% DV</li>
+                <li>Vitamin E: 14% DV</li>
+                <li>Vitamin K: 402% DV</li>
+                <li>Zinc: 30% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Broccoli</h2>
+            <ul>
+                <li>Calcium: 4% DV</li>
+                <li>Chromium: 39% DV</li>
+                <li>Folic Acid: 27% DV</li>
+                <li>Iron: 4% DV</li>
+                <li>Potassium: 7% DV</li>
+                <li>Vitamin C: 99% DV</li>
+                <li>Vitamin E: 5% DV</li>
+                <li>Vitamin K: 85% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Brown Rice</h2>
+            <ul>
+                <li>Magnesium: 9% DV</li>
+                <li>Manganese: 42% DV</li>
+                <li>Phosphorus: 11% DV</li>
+                <li>Vitamin B1: 15% DV</li>
+                <li>Vitamin B2: 5% DV</li>
+                <li>Vitamin B3: 16% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Avocado</h2>
+            <ul>
+                <li>Potassium: 10% DV</li>
+                <li>Vitamin B2: 10% DV</li>
+                <li>Vitamin B3: 11% DV</li>
+                <li>Vitamin B5: 28% DV</li>
+                <li>Vitamin B6: 15% DV</li>
+                <li>Vitamin E: 14% DV</li>
+                <li>Zinc: 6% DV</li>
+            </ul>
+        </div>
+
+
+<div class="card">
+    <h2>Milk</h2>
+    <ul>
+        <li>Calcium: 9% DV</li>
+        <li>Iodine: 19% DV</li>
+        <li>Vitamin B12: 19% DV</li>
+        <li>Vitamin B2: 13% DV</li>
+        <li>Vitamin B3: 2% DV</li>
+        <li>Vitamin B5: 7% DV</li>
+        <li>Vitamin D: 7% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Peas</h2>
+    <ul>
+        <li>Manganese: 18% DV</li>
+        <li>Potassium: 5% DV</li>
+        <li>Vitamin B1: 22% DV</li>
+        <li>Vitamin B3: 13% DV</li>
+        <li>Zinc: 11% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Swiss Cheese</h2>
+    <ul>
+        <li>Calcium: 68% DV</li>
+        <li>Copper: 5% DV</li>
+        <li>Sodium: 8% DV</li>
+        <li>Vitamin A: 32% DV</li>
+        <li>Vitamin B12: 128% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Nuts (Pistachios)</h2>
+    <ul>
+        <li>Iron: 22% DV</li>
+        <li>Magnesium: 29% DV</li>
+        <li>Sodium: 60% DV</li>
+        <li>Vitamin B6: 100% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Sweet Potato</h2>
+    <ul>
+        <li>Vitamin B7 (Biotin): 17% DV</li>
+        <li>Potassium: 7% DV</li>
+        <li>Vitamin A: 79% DV</li>
+        <li>Vitamin B3: 4% DV</li>
+        <li>Vitamin B5: 10% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Sunflower Seeds</h2>
+    <ul>
+        <li>Magnesium: 77% DV</li>
+        <li>Vitamin B1: 123% DV</li>
+        <li>Vitamin B5: 121% DV</li>
+        <li>Vitamin E: 162% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Mushrooms</h2>
+    <ul>
+        <li>Selenium: 10% DV</li>
+        <li>Vitamin B2: 17% DV</li>
+        <li>Vitamin B3: 24% DV</li>
+        <li>Vitamin B5: 72% DV</li>
+        <li>Zinc: 9% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Dark Chocolate</h2>
+    <ul>
+        <li>Copper: 196% DV</li>
+        <li>Iron: 66% DV</li>
+        <li>Magnesium: 54% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Egg</h2>
+    <ul>
+        <li>Vitamin B7 (Biotin): 66% DV</li>
+        <li>Choline: 53% DV</li>
+        <li>Iodine: 19% DV</li>
+        <li>Selenium: 56% DV</li>
+        <li>Vitamin A: 18% DV</li>
+        <li>Vitamin B12: 37% DV</li>
+        <li>Vitamin B2: 35% DV</li>
+        <li>Vitamin D: 10% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Lentils</h2>
+    <ul>
+        <li>Calcium: 3% DV</li>
+        <li>Vitamin B1: 73% DV</li>
+        <li>Vitamin B5: 13% DV</li>
+        <li>Zinc: 30% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Beans (Chickpeas, Cooked)</h2>
+    <ul>
+        <li>Copper: 29% DV</li>
+        <li>Iron: 14% DV</li>
+        <li>Magnesium: 20% DV</li>
+        <li>Vitamin B1: 11% DV</li>
+        <li>Vitamin B6: 15% DV</li>
+        <li>Zinc: 16% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Tomato</h2>
+    <ul>
+        <li>Vitamin B7: 9% DV</li>
+        <li>Chromium: 3% DV</li>
+        <li>Potassium: 4% DV</li>
+        <li>Vitamin A: 15% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Yogurt</h2>
+    <ul>
+        <li>Calcium: 9% DV</li>
+        <li>Iodine: 48% DV</li>
+        <li>Vitamin B6: 2% DV</li>
+        <li>Vitamin B12: 5% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Orange</h2>
+    <ul>
+        <li>Folic Acid: 8% DV</li>
+        <li>Potassium: 4% DV</li>
+        <li>Vitamin C: 59% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Kidney Beans</h2>
+    <ul>
+        <li>Calcium: 3% DV</li>
+        <li>Vitamin B1: 13% DV</li>
+        <li>Vitamin B6: 7% DV</li>
+        <li>Vitamin K: 8% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Banana</h2>
+    <ul>
+        <li>Magnesium: 6% DV</li>
+        <li>Potassium: 8% DV</li>
+        <li>Vitamin B6: 22% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Peanuts</h2>
+    <ul>
+        <li>Vitamin B7: 138% DV</li>
+        <li>Vitamin B3: 90% DV</li>
+        <li>Vitamin B6: 26% DV</li>
+        <li>Vitamin E: 33% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Nuts (Almonds)</h2>
+    <ul>
+        <li>Vitamin B7: 53% DV</li>
+        <li>Vitamin B2: 88% DV</li>
+        <li>Vitamin E: 171% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Kiwi</h2>
+    <ul>
+        <li>Vitamin C: 103% DV</li>
+        <li>Vitamin E: 10% DV</li>
+        <li>Vitamin K: 34% DV</li>
+        <li>Zinc: 2% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Cauliflower</h2>
+    <ul>
+        <li>Choline: 9% DV</li>
+        <li>Manganese: 6% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Carrot</h2>
+    <ul>
+        <li>Vitamin B7: 17% DV</li>
+        <li>Vitamin A: 93% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Black Pepper</h2>
+    <ul>
+        <li>Chromium: 60% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Oats</h2>
+    <ul>
+        <li>Chromium: 41% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Nuts (Cashews)</h2>
+    <ul>
+        <li>Copper: 144% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Mango</h2>
+    <ul>
+        <li>Folic Acid: 11% DV</li>
+        <li>Vitamin K: 5% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Lemon</h2>
+    <ul>
+        <li>Folic Acid: 3% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Pineapple</h2>
+    <ul>
+        <li>Manganese: 42% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Tea</h2>
+    <ul>
+        <li>Manganese: 22% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Seeds (Pumpkin)</h2>
+    <ul>
+        <li>Phosphorus: 158% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Cottage Cheese</h2>
+    <ul>
+        <li>Phosphorus: 58% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Nuts (Brazil)</h2>
+    <ul>
+        <li>Selenium: 2300% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Butter</h2>
+    <ul>
+        <li>Vitamin A: 68% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Chili</h2>
+    <ul>
+        <li>Vitamin A: 17% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Red and Green Chili</h2>
+    <ul>
+        <li>Vitamin C: 120% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Strawberry</h2>
+    <ul>
+        <li>Vitamin C: 113% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Papaya</h2>
+    <ul>
+        <li>Vitamin C: 68% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Olive Oil</h2>
+    <ul>
+        <li>Vitamin E: 13% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Spinach</h2>
+    <ul>
+        <li>Vitamin K: 582% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Brussels Sprouts</h2>
+    <ul>
+        <li>Vitamin K: 117% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Garlic</h2>
+    <ul>
+        <li>Zinc: 11% DV</li>
+    </ul>
+</div>
+
+        <!-- Add the rest of your cards here -->
+
+    </div>
+</body>
+
+</html>

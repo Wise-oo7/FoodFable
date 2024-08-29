@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitamins/Minerals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap; /* Allow wrapping for smaller screens */
+        }
+
+        .header button {
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            margin-right: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            transition: background-color 0.3s;
+            flex: 1; /* Allow button to scale */
+            text-align: center;
+        }
+
+        .header button:hover {
+            background-color: #0056b3;
+        }
+
+        .title {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h2 {
+            margin: 0;
+            color: #333;
+        }
+
+        .card ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        .card ul li {
+            background-color: #e0e0e0;
+            margin-bottom: 5px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .card ul li:nth-child(odd) {
+            background-color: #d0d0d0;
+        }
+
+        @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .header button {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="container">
+        <div class="header">
+            <button onclick="window.location.href='English2.html';">VitalMeal%</button>
+            <div class="title">
+                <h1>FoodFable</h1>
+            </div>
+        </div>
+		<!-- Content Section -->
+        <div class="card">
+            <h2>Vitamin B7</h2>
+            <ul>
+                <li>Peanuts: 94% DV</li>
+                <li>Eggs: 60% DV</li>
+                <li>Almonds: 53% DV</li>
+                <li>Sweet Potato: 26% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Calcium</h2>
+            <ul>
+                <li>Swiss Cheese: 68% DV</li>
+                <li>Milk: 9% DV</li>
+                <li>Yogurt: 9% DV</li>
+                <li>Broccoli: 4% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Choline</h2>
+            <ul>
+                <li>Eggs: 53% DV</li>
+                <li>Cauliflower: 9% DV</li>
+                <li>Spinach: 4% DV</li>
+                <li>Mushrooms: 1% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Chromium</h2>
+            <ul>
+                <li>Black Peppers: 60% DV</li>
+                <li>Oats: 41% DV</li>
+                <li>Broccoli: 39% DV</li>
+                <li>Tomato: 3% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Copper</h2>
+            <ul>
+                <li>Dark Chocolate: 196% DV</li>
+                <li>Nuts (Cashew): 144% DV</li>
+                <li>Mushrooms: 100% DV</li>
+                <li>Beans (Cheese, Cooked): 39% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Vitamin B9 (Folic Acid)</h2>
+            <ul>
+                <li>Spinach: 37% DV</li>
+                <li>Kale: 35% DV</li>
+                <li>Broccoli: 27% DV</li>
+                <li>Mango: 11% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Iodine</h2>
+            <ul>
+                <li>Yogurt: 48% DV</li>
+                <li>Milk: 19% DV</li>
+                <li>Eggs: 16% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Iron</h2>
+            <ul>
+                <li>Dark Chocolate: 60% DV</li>
+                <li>Nuts (Pistachio): 22% DV</li>
+                <li>Spinach: 15% DV</li>
+                <li>Mushrooms: 6% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Magnesium</h2>
+            <ul>
+                <li>Seeds (Sunflower): 77% DV</li>
+                <li>Dark Chocolate: 54% DV</li>
+                <li>Nuts (Pistachio): 29% DV</li>
+                <li>Spinach: 21% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Phosphorus</h2>
+            <ul>
+                <li>Seeds (Pumpkin): 158% DV</li>
+                <li>Cheese: 58% DV</li>
+                <li>Brown Rice: 11% DV</li>
+                <li>Spinach: 9% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Potassium</h2>
+            <ul>
+                <li>Avocado: 10% DV</li>
+                <li>Banana: 8% DV</li>
+                <li>Sweet Potato: 7% DV</li>
+                <li>Broccoli: 7% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Selenium</h2>
+            <ul>
+                <li>Nuts (Brazil): 2300% DV</li>
+                <li>Eggs: 56% DV</li>
+                <li>Mushrooms: 10% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Sodium</h2>
+            <ul>
+                <li>Nuts (Pistachio, Salted): 60% DV</li>
+                <li>Swiss Cheese: 8% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Vitamin A</h2>
+            <ul>
+                <li>Carrot: 93% DV</li>
+                <li>Sweet Potato: 79% DV</li>
+                <li>Butter: 68% DV</li>
+                <li>Spinach: 52% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Vitamin B1</h2>
+            <ul>
+                <li>Seeds (Sunflower): 123% DV</li>
+                <li>Lentils: 73% DV</li>
+                <li>Nuts (Pistachio): 73% DV</li>
+                <li>Peas: 22% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Vitamin B12</h2>
+            <ul>
+                <li>Swiss Cheese: 128% DV</li>
+                <li>Eggs: 37% DV</li>
+                <li>Milk: 19% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Vitamin B2</h2>
+            <ul>
+                <li>Almonds: 85% DV</li>
+                <li>Eggs: 35% DV</li>
+                <li>Mushrooms: 17% DV</li>
+                <li>Spinach: 15% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Vitamin B3</h2>
+            <ul>
+                <li>Peanuts: 90% DV</li>
+                <li>Mushrooms: 24% DV</li>
+                <li>Brown Rice: 16% DV</li>
+                <li>Peas: 13% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+    <h2>Vitamin B5</h2>
+    <ul>
+        <li>Seeds (Sunflower): 121% DV</li>
+        <li>Mushrooms: 72% DV</li>
+        <li>Avocado: 28% DV</li>
+        <li>Lentils: 13% DV</li>
+        <li>Sweet Potato: 10% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Vitamin B6</h2>
+    <ul>
+        <li>Pistachio Nuts: 100% DV</li>
+        <li>Peanuts: 26% DV</li>
+        <li>Avocado: 15% DV</li>
+        <li>Rajama: 7% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Vitamin C</h2>
+    <ul>
+        <li>Red and Green Peppers: 120% DV</li>
+        <li>Strawberry: 113% DV</li>
+        <li>Kiwi: 103% DV</li>
+        <li>Broccoli: 99% DV</li>
+        <li>Papaya: 68% DV</li>
+        <li>Orange: 59% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Vitamin D</h2>
+    <ul>
+        <li>Egg: 10% DV</li>
+        <li>Milk: 7% DV</li>
+        <li>Yogurt: 5% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Vitamin E</h2>
+    <ul>
+        <li>Nuts (Almonds): 171% DV</li>
+        <li>Seeds (Sunflower): 162% DV</li>
+        <li>Nuts (Peanuts): 33% DV</li>
+        <li>Spinach: 14% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Vitamin K</h2>
+    <ul>
+        <li>Kale: 582% DV</li>
+        <li>Spinach: 402% DV</li>
+        <li>Broccoli: 85% DV</li>
+        <li>Kiwi: 34% DV</li>
+        <li>Rajama: 8% DV</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Zinc</h2>
+    <ul>
+        <li>Lentils: 30% DV</li>
+        <li>Dark Chocolate: 30% DV</li>
+        <li>Garlic: 11% DV</li>
+        <li>Peas: 11% DV</li>
+        <li>Mushrooms: 9% DV</li>
+    </ul>
+</div>
+        <!-- Vitamin and mineral cards go here -->
+    </div>
+</body>
+</html>

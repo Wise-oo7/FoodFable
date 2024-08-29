@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitamins/Minerals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap; /* Allow wrapping for smaller screens */
+        }
+
+        .header button {
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            margin-right: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            transition: background-color 0.3s;
+            flex: 1; /* Allow button to scale */
+            text-align: center;
+        }
+
+        .header button:hover {
+            background-color: #0056b3;
+        }
+
+        .title {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h2 {
+            margin: 0;
+            color: #333;
+        }
+
+        .card ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        .card ul li {
+            background-color: #e0e0e0;
+            margin-bottom: 5px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .card ul li:nth-child(odd) {
+            background-color: #d0d0d0;
+        }
+
+        @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .header button {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="container">
+        <div class="header">
+            <button onclick="window.location.href='Hindi2.html';">VitalMeal%</button>
+            <div class="title">
+                <h1>FoodFable</h1>
+            </div>
+        </div>
+        <div class="card">
+            <h2>विटामिन B7</h2>
+            <ul>
+                <li>मूँगफली: 94% DV</li>
+                <li>अंडे: 60% DV</li>
+                <li>बादाम: 53% DV</li>
+                <li>शकरकंद: 26% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>कैल्शियम</h2>
+            <ul>
+                <li>स्विस चीज़: 68% DV</li>
+                <li>दूध: 9% DV</li>
+                <li>दही: 9% DV</li>
+                <li>ब्रोकली: 4% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>कोलाइन</h2>
+            <ul>
+                <li>अंडे: 53% DV</li>
+                <li>फूलगोभी: 9% DV</li>
+                <li>पालक: 4% DV</li>
+                <li>मशरूम: 1% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>क्रोमियम</h2>
+            <ul>
+                <li>काली मिर्च: 60% DV</li>
+                <li>ओट्स: 41% DV</li>
+                <li>ब्रोकली: 39% DV</li>
+                <li>टमाटर: 3% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>कॉपर</h2>
+            <ul>
+                <li>डार्क चॉकलेट: 196% DV</li>
+                <li>नट्स (काजू): 144% DV</li>
+                <li>मशरूम: 100% DV</li>
+                <li>बीन्स (पनीर, पके हुए): 39% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>विटामिन B9 (फोलिक एसिड)</h2>
+            <ul>
+                <li>पालक: 37% DV</li>
+                <li>पालक: 35% DV</li>
+                <li>ब्रोकली: 27% DV</li>
+                <li>आम: 11% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>आयोडीन</h2>
+            <ul>
+                <li>दही: 48% DV</li>
+                <li>दूध: 19% DV</li>
+                <li>अंडे: 16% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>आयरन</h2>
+            <ul>
+                <li>डार्क चॉकलेट: 60% DV</li>
+                <li>नट्स (पिस्ता): 22% DV</li>
+                <li>पालक: 15% DV</li>
+                <li>मशरूम: 6% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>मैग्नीशियम</h2>
+            <ul>
+                <li>बीज (सूरजमुखी): 77% DV</li>
+                <li>डार्क चॉकलेट: 54% DV</li>
+                <li>नट्स (पिस्ता): 29% DV</li>
+                <li>पालक: 21% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>फास्फोरस</h2>
+            <ul>
+                <li>बीज (कद्दू): 158% DV</li>
+                <li>पनीर: 58% DV</li>
+                <li>ब्राउन चावल: 11% DV</li>
+                <li>पालक: 9% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>पोटेशियम</h2>
+            <ul>
+                <li>एवोकाडो: 10% DV</li>
+                <li>केला: 8% DV</li>
+                <li>शकरकंद: 7% DV</li>
+                <li>ब्रोकली: 7% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>सेलेनियम</h2>
+            <ul>
+                <li>नट्स (ब्राजील): 2300% DV</li>
+                <li>अंडे: 56% DV</li>
+                <li>मशरूम: 10% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>सोडियम</h2>
+            <ul>
+                <li>नट्स (पिस्ता, नमकीन): 60% DV</li>
+                <li>स्विस चीज़: 8% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>विटामिन A</h2>
+            <ul>
+                <li>गाजर: 93% DV</li>
+                <li>शकरकंद: 79% DV</li>
+                <li>मक्खन: 68% DV</li>
+                <li>पालक: 52% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>विटामिन B1</h2>
+            <ul>
+                <li>बीज (सूरजमुखी): 123% DV</li>
+                <li>दालें: 73% DV</li>
+                <li>नट्स (पिस्ता): 73% DV</li>
+                <li>मटर: 22% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>विटामिन B12</h2>
+            <ul>
+                <li>स्विस चीज़: 128% DV</li>
+                <li>अंडे: 37% DV</li>
+                <li>दूध: 19% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>विटामिन B2</h2>
+            <ul>
+                <li>बादाम: 85% DV</li>
+                <li>अंडे: 35% DV</li>
+                <li>मशरूम: 17% DV</li>
+                <li>पालक: 15% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>विटामिन B3</h2>
+            <ul>
+                <li>मूँगफली: 90% DV</li>
+                <li>मशरूम: 24% DV</li>
+                <li>ब्राउन चावल: 16% DV</li>
+                <li>मटर: 13% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>विटामिन B5</h2>
+            <ul>
+                <li>बीज (सूरजमुखी): 121% DV</li>
+                <li>अंडे: 28% DV</li>
+                <li>पालक: 14% DV</li>
+                <li>ब्रोकली: 10% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>विटामिन B6</h2>
+            <ul>
+                <li>पिस्ता: 100% DV</li>
+                <li>मूँगफली: 26% DV</li>
+                <li>एवोकाडो: 15% DV</li>
+                <li>राजमा: 7% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>विटामिन C</h2>
+            <ul>
+                <li>संतरा: 89% DV</li>
+                <li>किवी: 93% DV</li>
+                <li>पपीता: 145% DV</li>
+                <li>ब्रोकली: 107% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>विटामिन D</h2>
+            <ul>
+                <li>मछली (सालमन): 112% DV</li>
+                <li>अंडे: 10% DV</li>
+                <li>दूध: 2% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>विटामिन E</h2>
+            <ul>
+                <li>नट्स (बादाम): 25% DV</li>
+                <li>बीज (सूरजमुखी): 82% DV</li>
+                <li>पालक: 20% DV</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>विटामिन K</h2>
+            <ul>
+                <li>पालक: 547% DV</li>
+                <li>ब्रोकली: 116% DV</li>
+                <li>फूलगोभी: 24% DV</li>
+                <li>शकरकंद: 13% DV</li>
+            </ul>
+        </div>
+		<div class="card">
+            <h2>जिंक</h2>
+            <ul>
+               <li>दालें: 30% DV</li>
+               <li>डार्क चॉकलेट: 30% DV</li>
+               <li>लहसुन: 11% DV</li>
+               <li>मटर: 11% DV</li>
+               <li>मशरूम: 9% DV</li>
+            </ul>
+</div>
+    </div>
+</body>
+</html>
